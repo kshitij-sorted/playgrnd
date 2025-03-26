@@ -12,6 +12,7 @@
 12. git commit - m ""
 13. git push -u origin main
 14. git pull origin main
+15. rm -rf .git
 
     resources :
 
