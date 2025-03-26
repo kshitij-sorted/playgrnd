@@ -5,8 +5,10 @@
 5. git status
 6. git auto login
 7. git remote add origin <repo link>
-8. git add ./
-9. git status
-10. git commit - m ""
-11. git push -u origin main
-12. git pull origin main
+8. git remote -v
+9. git remote set-url origin <NEW_GIT_URL_HERE>
+10. git add ./
+11. git status
+12. git commit - m ""
+13. git push -u origin main
+14. git pull origin main
