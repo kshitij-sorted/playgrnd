@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Build Assembly",
+            "command": "nasm -f elf64 -o ${workspaceFolder}\\${fileBasenameNoExtension}.o ${file}",
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "Link Assembly",
+            "command": "ld -o ${workspaceFolder}\\${fileBasenameNoExtension} ${workspaceFolder}\\${fileBasenameNoExtension}.o",
+            "problemMatcher": []
+        }
+    ]
+}
