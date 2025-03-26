@@ -12,3 +12,8 @@
 12. git commit - m ""
 13. git push -u origin main
 14. git pull origin main
+
+    resources :
+
+    https://www.jasonross.dev/topics/
+    https://www.linuxuntu.com/install-git-linux/#what-is-git
