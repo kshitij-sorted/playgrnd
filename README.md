@@ -4,7 +4,7 @@
 4. git init
 5. git status
 6. git auto login
-7. git remote add origin <repo link>
+7. git remote add origin <repo_link>
 8. git remote -v
 9. git remote set-url origin <NEW_GIT_URL_HERE>
 10. git add ./
