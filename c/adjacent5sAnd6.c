@@ -13,9 +13,9 @@ int main(){
 
     for (int i = 0; i<= 5; i++) {
 
-        if ((ar[i]==1 && ar[i+1]==2) && ar[i+2]==3) {
+        if (ar[i]==5 && ar[i+1]==5 || ar[i+1]==6) {
 
-            printf("Appears\n");
+            printf("Appears");
         
         }
     
