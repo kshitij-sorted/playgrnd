@@ -3,7 +3,7 @@
 3. go to desired folder
 4. git init
 5. git status
-6. git auto login
+6. gh auth login
 7. git remote add origin <repo_link>
 8. git remote -v
 9. git remote set-url origin <NEW_GIT_URL_HERE>
