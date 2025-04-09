@@ -116,12 +116,11 @@ int main(){
     //     default:
     //         cout << "default"; // if none of the case is executed .. then the program falls back on default
     //         //no need of break coz automatically breaks out
-    //         // if break is written here then the program breaks out ... of everything above it .. basically does not run 
-                // anything
+    //         // if break is written here then the program breaks out ... of everything above it .. basically does not run anything
 
     // }
 
-    //if one case is triggered every case after that case is triggered ... this is prevented by break
+    // // if one case is triggered every case after that case is triggered ... this is prevented by break
 
 
     // int arr[5]; // this array will only take int as a element
@@ -166,7 +165,41 @@ int main(){
 
     // // difference in do while and while is that .. do while executes the program minimum once even if the condotion is false.
 
-    //void function -- which does not retun anything .. its a void .. and its a non parameter .. wont require a parameter 
-    // return 
-    return 0;
+    // // void function -- which does not retun anything .. its a void .. and its a non parameter .. wont require a parameter return 
+    
+
+
+     /*
+            *  Write your code here. 
+             *  Read input as specified in the question.
+             *  Print output as specified in the question.
+            */
+            // int n;
+            // cin >> n;
+            // int *p = new int[n];
+            
+            // p[0] = 1;
+            // p[1] = 1;
+            
+            // for (int i=2 ;i <= n;i++){
+            
+            //         p[i] = p[i-1]+p[i-2];
+            // }
+            
+            // cout << p[n-1];
+            
+            // delete(p);
+            // return 0;
+
+            // int n,t;
+            // cin >> n;
+            // t = 10;
+            // while ( t >= 1){
+
+            //     cout << n*t << " ";
+            //     t -= 1;
+
+
+            }
+
 }

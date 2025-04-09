@@ -1,3 +1,4 @@
-city = input("Your city plz: ")
-pet = input("Your pet name: ")
-print(city,pet)
+name = input("Your name is: ")
+length = len(name)
+print("the length of the name is" , length)
+
